@@ -1,28 +1,23 @@
-<script lang=ts>
-	import * as api from '$lib/api.ts'
-
-	const translations = api.get(`translations`);
-
+<script lang="ts">
+    export let data;
 </script>
 
 
-<div class="container h-full mx-auto flex justify-center items-center">
+<div class="container h-full w-7/12 mx-auto flex justify-center items-center">
 	<div class="space-y-5">
-		<h1 class="h1">Translations available</h1>
+		<h1 class="h1 flex w-auto">The Bible</h1>
 		<div>
-			{#await translations}
-				<p>Loading data from server</p>
-			{:then translations_arr}
-				{#each translations_arr as translation}
-					<p>{translation.name}</p><br>
-					<p>{translation.full_name}</p><br>
-					<p>{translation.year}</p><br>
-					<p>{translation.license}</p><br>
-					<p>{translation.description}</p><br>
+			<div class="grid grid-cols-2">
+				{#each data.translations as translation}
+				<a class="block card card-hover p-4 w-11/12 bg-primary-200 hover:bg-primary-400" href="/{translation.name}">
+					<header class="card-header">{translation.name}</header>
+					<section class="p-4">
+						<p>{translation.language}</p>
+				</section>
+					<footer>Year: {translation.year}</footer>
+				</a>
 				{/each}
-			{:catch error}
-				<p> Error </p>
-			{/await}
+			</div>
 		</div>
 	</div>
 </div>
