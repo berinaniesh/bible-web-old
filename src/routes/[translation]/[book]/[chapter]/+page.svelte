@@ -28,7 +28,7 @@
   <br />
   {#each data.verses as verse}
     <div class="leading-relaxed text-lg py-4">
-      <Verse verseNumber ={verse.verse_number} verseText={verse.verse}/>
+      <Verse verseNumber ={verse.verse_number} verseText={verse.verse} chapterNumber={data.params.chapter} bookName={current_translation_book} translationName={data.params.translation}/>
     </div>
   {/each}
 </div>
