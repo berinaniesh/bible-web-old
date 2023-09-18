@@ -1,14 +1,32 @@
 <script lang="ts">
-	export let data;
+  export let data;
+  function get_book_name() {
+    let current_book = data.params.book;
+    for (let i = 0; i < data.books['Old Testament'].length; i++) {
+      if (current_book === data.books['Old Testament'][i][0]) {
+        return data.books['Old Testament'][i][1];
+      }
+    }
+    for (let i = 0; i < data.books['New Testament'].length; i++) {
+      if (current_book === data.books['New Testament'][i][0]) {
+        return data.books['New Testament'][i][1];
+      }
+    }
+  }
+  let current_translation_book = get_book_name();
 </script>
 
+<svelte:head>
+  <title>Bible - {data.params.translation} - {data.params.book} {data.params.chapter}</title>
+</svelte:head>
+
 <div class="max-w-screen-md mx-auto px-6 py-6">
-	<p class="text-xl">{data.params.book} {data.params.chapter}</p>
-	<br />
-	{#each data.verses as verse}
-		<div class="leading-relaxed text-lg py-4">
-			{verse.verse_number}
-			{verse.verse}<br />
-		</div>
-	{/each}
+  <p class="text-xl text-center">{current_translation_book} {data.params.chapter}</p>
+  <br />
+  {#each data.verses as verse}
+    <div class="leading-relaxed text-lg py-4">
+      {verse.verse_number}
+      {verse.verse}<br />
+    </div>
+  {/each}
 </div>
