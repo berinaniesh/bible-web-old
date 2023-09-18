@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Bible - {data.translation}</title>
+  <title>{data.translation} • Bible</title>
 </svelte:head>
 
 <div class="w-full flex py-6">

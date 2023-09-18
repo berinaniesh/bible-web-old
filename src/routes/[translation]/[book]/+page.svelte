@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>Bible - {data.params.translation} - {data.params.book}</title>
+  <title>{current_translation_book} • {data.params.translation} • Bible</title>
 </svelte:head>
 
 <div class="text-center max-w-screen-md mx-auto px-6 py-6">
