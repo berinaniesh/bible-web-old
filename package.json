@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite dev",
     "host": "vite dev --host",
+    "deploy": "vite build && ssh berinaniesh.xyz sudo systemctl stop bible-web && scp -r build/ berinaniesh.xyz:/srv/bible-web/ && ssh berinaniesh.xyz sudo systemctl start bible-web",
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
