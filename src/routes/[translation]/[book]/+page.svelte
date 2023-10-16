@@ -25,7 +25,7 @@
 </svelte:head>
 
 <div class="text-center max-w-screen-md mx-auto px-6 py-6">
-  <p class="text-xl">{current_translation_book}</p>
+  <p class="text-xl font-bold">{current_translation_book}</p>
   <div class="w-full flex py-6">
     <div class="flex mx-auto">
       <ul class="grid grid-cols-8">

@@ -23,7 +23,7 @@
 </svelte:head>
 
 <div class="max-w-screen-md mx-auto px-6 py-6">
-  <p class="text-xl text-center">{current_translation_book} {data.params.chapter}</p>
+  <p class="text-xl text-center font-bold">{current_translation_book} {data.params.chapter}</p>
   <br />
   {#each data.verses as verse}
     <div class="leading-relaxed text-lg py-4">
