@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Verse from './Verse.svelte'
+  import Verse from './Verse.svelte';
   export let data;
   function get_book_name() {
     let current_book = data.params.book;
@@ -15,11 +15,11 @@
     }
   }
   let current_translation_book = get_book_name();
-
 </script>
 
 <svelte:head>
-  <title>{current_translation_book} {data.params.chapter} • {data.params.translation} • Bible</title>
+  <title>{current_translation_book} {data.params.chapter} • {data.params.translation} • Bible</title
+  >
 </svelte:head>
 
 <div class="max-w-screen-md mx-auto px-6 py-6">
@@ -27,8 +27,13 @@
   <br />
   {#each data.verses as verse}
     <div class="leading-relaxed text-lg py-4">
-      <Verse verseNumber ={verse.verse_number} verseText={verse.verse} chapterNumber={data.params.chapter} bookName={current_translation_book} translationName={data.params.translation}/>
+      <Verse
+        verseNumber={verse.verse_number}
+        verseText={verse.verse}
+        chapterNumber={data.params.chapter}
+        bookName={current_translation_book}
+        translationName={data.params.translation}
+      />
     </div>
   {/each}
 </div>
-

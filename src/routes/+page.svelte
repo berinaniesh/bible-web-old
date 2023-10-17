@@ -17,7 +17,8 @@
           >
             <header class="font-bold card-header">{translation.name}</header>
             <section class="p-4">
-              <p>{translation.language}</p><br>
+              <p>{translation.language}</p>
+              <br />
               <p>{translation.year}</p>
             </section>
           </a>
