@@ -28,7 +28,7 @@ async function copyToClipboard() {
 <div class="bg-primary-400 p-2 rounded absolute top-4 right-4" out:fade>Copied!</div>
 {/if}
 
-<div class="hover:cursor-pointer" on:click={copyToClipboard}>
+<div role="button" tabindex=0 class="hover:cursor-pointer" on:click={copyToClipboard} on:keypress={copyToClipboard}>
 {verseNumber}
 {verseText}<br />
 </div>
