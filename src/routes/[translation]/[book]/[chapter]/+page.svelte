@@ -41,14 +41,14 @@
 <div class="max-w-screen-md mx-auto">
 <div class="flex justify-between px-6">
   {#if data.nav.previous}
-    <a href="/{data.params.translation}/{data.nav.previous.book}/{data.nav.previous.chapter}">
+    <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.previous.book}/{data.nav.previous.chapter}">
       <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6"> ← </button>
     </a>
   {:else}
     <div />
   {/if}
   {#if data.nav.next}
-    <a href="/{data.params.translation}/{data.nav.next.book}/{data.nav.next.chapter}">
+    <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.next.book}/{data.nav.next.chapter}">
       <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6"> → </button>
     </a>
   {:else}
