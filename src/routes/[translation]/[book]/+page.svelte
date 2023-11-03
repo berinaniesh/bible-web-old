@@ -27,18 +27,32 @@
 <div class="text-center max-w-screen-md mx-auto px-6 py-6">
   <p class="text-xl font-bold">{current_translation_book}</p>
   <div class="w-full flex py-6">
-    <div class="flex mx-auto">
-      <ul class="grid grid-cols-8">
+    <div class="flex">
+      <div class="grid grid-cols-8">
         {#each arr as c}
           <a href="/{data.params.translation}/{data.params.book}/{c}">
-            <li class="py-1.5">
-              <button type="button" class="btn btn-xl hover:bg-primary-400">
-                {c}
-              </button>
-            </li>
+            <button type="button" class="btn btn-xl hover:bg-primary-400">
+              {c}
+            </button>
           </a>
         {/each}
-      </ul>
+      </div>
     </div>
+  </div>
+  <div class="flex justify-between">
+    {#if data.nav.previous}
+      <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.previous.book}">
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl"> ← </button>
+      </a>
+    {:else}
+      <div />
+    {/if}
+    {#if data.nav.next}
+      <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.next.book}">
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl"> → </button>
+      </a>
+    {:else}
+      <div />
+    {/if}
   </div>
 </div>
