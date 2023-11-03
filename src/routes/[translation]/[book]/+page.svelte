@@ -42,14 +42,14 @@
   <div class="flex justify-between">
     {#if data.nav.previous}
       <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.previous.book}">
-        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl"> ← </button>
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6"> ← </button>
       </a>
     {:else}
       <div />
     {/if}
     {#if data.nav.next}
       <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.next.book}">
-        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl"> → </button>
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6"> → </button>
       </a>
     {:else}
       <div />
