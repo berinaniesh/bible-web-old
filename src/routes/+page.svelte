@@ -27,3 +27,6 @@
     </div>
   </div>
 </div>
+<div class="w-full mx-auto container flex justify-center items-center">
+  <a class="text-gray-400 underline" href="/about">About</a>
+</div>
