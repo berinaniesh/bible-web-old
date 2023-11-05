@@ -2,7 +2,7 @@
   <title>About • Bible</title>
 </svelte:head>
 
-<div class="container h-full leading-9 md:w-7/12 mx-auto justify-center items-center py-36 px-8">
+<div class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-36 px-8">
   <h1 class="font-bold text-xl py-4">About</h1>
 
   <ul class="list-disc pl-8">
@@ -29,6 +29,6 @@
     </li>
   </ul>
 </div>
-<div class="w-full mx-auto container flex justify-center items-center">
+<div class="w-full mx-auto max-w-screen-md container flex justify-center items-center">
   <a class="text-gray-400 underline" href="/">Home</a>
 </div>
