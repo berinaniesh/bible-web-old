@@ -38,11 +38,10 @@
 {/if}
 
 <div
-  role="button"
+  role="cell"
   tabindex="0"
   class="hover:cursor-pointer"
-  on:click={copyToClipboard}
-  on:keypress={copyToClipboard}
+  on:dblclick={copyToClipboard}
 >
   {verseNumber}
   {verseText}<br />
