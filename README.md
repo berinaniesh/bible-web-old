@@ -4,11 +4,7 @@ This is the frontend for [bible-api](https://github.com/berinaniesh/bible-api) a
 
 ## Self hosting
 
-Check SvelteKit's adapters for hosting instructions (I request you to self host bible api as well to ease load on my server).
-
-## Forks
-
-Make sure to remove my google verification html file from the `/static` folder.
+Check SvelteKit's adapters for hosting instructions (I request you to self host bible api as well to ease load on my server). Make sure to remove my google verification html file from the `/static` folder.
 
 ## Plans
 
