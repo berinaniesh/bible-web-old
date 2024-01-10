@@ -35,7 +35,7 @@
   </ol>
 </div>
 
-<div class="text-center max-w-screen-md mx-auto px-6 py-6">
+<div class="text-center max-w-screen-md mx-auto px-6 py-6 mt-2">
   <p class="text-xl font-bold">{current_translation_book}</p>
   <div class="w-full flex py-6">
     <div class="flex">
