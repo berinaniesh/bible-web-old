@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="container h-full w-7/12 mx-auto flex justify-center items-center py-36">
+<div class="container h-full w-7/12 mx-auto flex justify-center items-center py-24">
   <div class="space-y-4">
     <h1 class="h1 flex w-auto">The Bible</h1>
     <div>
