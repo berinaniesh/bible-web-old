@@ -25,11 +25,17 @@
 <div class="max-w-screen-md mt-8 mx-auto px-6">
   <ol class="w-fit breadcrumb-nonresponsive">
     <li class="crumb"><a class="anchor" href="/">Home</a></li>
-	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
-    <li class="crumb"><a class="anchor" href={"/" + data.params.translation}>{data.params.translation}</a></li>
-	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
-    <li class="crumb"><a class="anchor" href={"/" + data.params.translation + "/" + data.params.book}>{data.params.book}</a></li>
-	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb">
+      <a class="anchor" href={'/' + data.params.translation}>{data.params.translation}</a>
+    </li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb">
+      <a class="anchor" href={'/' + data.params.translation + '/' + data.params.book}
+        >{data.params.book}</a
+      >
+    </li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
     <li class="font-bold">{data.params.chapter}</li>
   </ol>
 </div>
@@ -51,20 +57,30 @@
 </div>
 
 <div class="max-w-screen-md mx-auto">
-<div class="flex justify-between px-6">
-  {#if data.nav.previous}
-    <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.previous.book}/{data.nav.previous.chapter}">
-      <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6"> ← </button>
-    </a>
-  {:else}
-    <div />
-  {/if}
-  {#if data.nav.next}
-    <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.next.book}/{data.nav.next.chapter}">
-      <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6"> → </button>
-    </a>
-  {:else}
-    <div />
-  {/if}
-</div>
+  <div class="flex justify-between px-6">
+    {#if data.nav.previous}
+      <a
+        data-sveltekit-reload
+        href="/{data.params.translation}/{data.nav.previous.book}/{data.nav.previous.chapter}"
+      >
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6">
+          ←
+        </button>
+      </a>
+    {:else}
+      <div />
+    {/if}
+    {#if data.nav.next}
+      <a
+        data-sveltekit-reload
+        href="/{data.params.translation}/{data.nav.next.book}/{data.nav.next.chapter}"
+      >
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl my-6">
+          →
+        </button>
+      </a>
+    {:else}
+      <div />
+    {/if}
+  </div>
 </div>

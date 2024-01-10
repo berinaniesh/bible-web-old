@@ -37,12 +37,7 @@
   <div class="bg-primary-400 p-2 rounded absolute top-4 right-4" out:fade>Copied!</div>
 {/if}
 
-<div
-  role="cell"
-  tabindex="0"
-  class="hover:cursor-pointer"
-  on:dblclick={copyToClipboard}
->
+<div role="cell" tabindex="0" class="hover:cursor-pointer" on:dblclick={copyToClipboard}>
   {verseNumber}
   {verseText}<br />
 </div>

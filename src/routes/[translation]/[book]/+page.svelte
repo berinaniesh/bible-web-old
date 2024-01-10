@@ -27,9 +27,11 @@
 <div class="max-w-screen-md mt-8 mx-auto px-6">
   <ol class="w-fit breadcrumb-nonresponsive">
     <li class="crumb"><a class="anchor" href="/">Home</a></li>
-	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
-    <li class="crumb"><a class="anchor" href={"/" + data.params.translation}>{data.params.translation}</a></li>
-	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb">
+      <a class="anchor" href={'/' + data.params.translation}>{data.params.translation}</a>
+    </li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
     <li class="font-bold">{data.params.book}</li>
     <li class="crumb-separator" aria-hidden>&rsaquo;</li>
   </ol>
@@ -53,14 +55,18 @@
   <div class="flex justify-between">
     {#if data.nav.previous}
       <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.previous.book}">
-        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6"> ← </button>
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6">
+          ←
+        </button>
       </a>
     {:else}
       <div />
     {/if}
     {#if data.nav.next}
       <a data-sveltekit-reload href="/{data.params.translation}/{data.nav.next.book}">
-        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6"> → </button>
+        <button class="btn btn-xl bg-gray-100 hover:bg-primary-400 font-bold text-2xl py-6">
+          →
+        </button>
       </a>
     {:else}
       <div />

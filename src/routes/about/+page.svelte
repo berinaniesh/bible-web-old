@@ -2,7 +2,9 @@
   <title>About • Bible</title>
 </svelte:head>
 
-<div class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-8 px-8">
+<div
+  class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-8 px-8"
+>
   <h1 class="font-bold text-xl py-4">About</h1>
 
   <ul class="list-disc pl-8">
@@ -28,14 +30,16 @@
       >.
     </li>
     <li>
-      To participate in the development, join the <a href="https://t.me/bibleappdesign"><u>telegram group</u></a>. 
+      To participate in the development, join the <a href="https://t.me/bibleappdesign"
+        ><u>telegram group</u></a
+      >.
     </li>
-    <li>
-      I make no guarantees of availability, quality or correctness of the API or the web app.
-    </li>
+    <li>I make no guarantees of availability, quality or correctness of the API or the web app.</li>
   </ul>
 </div>
-<div class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-8 px-8">
+<div
+  class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-8 px-8"
+>
   <h1 class="font-bold text-xl py-4">Updates / Changelog</h1>
 
   <ul class="list-disc pl-8">
