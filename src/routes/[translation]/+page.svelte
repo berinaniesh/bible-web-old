@@ -11,6 +11,7 @@
     <li class="crumb"><a class="anchor" href="/">Home</a></li>
 	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
     <li class="font-bold">{data.translation}</li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
   </ol>
 </div>
 

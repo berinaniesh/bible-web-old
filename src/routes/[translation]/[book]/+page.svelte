@@ -31,6 +31,7 @@
     <li class="crumb"><a class="anchor" href={"/" + data.params.translation}>{data.params.translation}</a></li>
 	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
     <li class="font-bold">{data.params.book}</li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
   </ol>
 </div>
 

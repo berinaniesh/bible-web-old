@@ -5,6 +5,15 @@
 <svelte:head>
   <title>Bible</title>
 </svelte:head>
+
+<div class="max-w-screen-md mt-8 mx-auto px-6">
+  <ol class="w-fit breadcrumb">
+    <li class="crumb"><a class="anchor" href="/">Home</a></li>
+	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+  </ol>
+</div>
+
+
 <div class="container h-full w-7/12 mx-auto flex justify-center items-center py-36">
   <div class="space-y-4">
     <h1 class="h1 flex w-auto">The Bible</h1>
