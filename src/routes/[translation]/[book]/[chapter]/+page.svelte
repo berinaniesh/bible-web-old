@@ -23,7 +23,7 @@
 </svelte:head>
 
 <div class="max-w-screen-md mt-8 mx-auto px-6">
-  <ol class="w-fit breadcrumb">
+  <ol class="w-fit breadcrumb-nonresponsive">
     <li class="crumb"><a class="anchor" href="/">Home</a></li>
 	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
     <li class="crumb"><a class="anchor" href={"/" + data.params.translation}>{data.params.translation}</a></li>
