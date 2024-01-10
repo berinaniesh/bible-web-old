@@ -59,6 +59,6 @@
     <li>Jan 10, 2024 - Add breadcrumbs for navigation</li>
   </ul>
 </div>
-<div class="w-full mx-auto max-w-screen-md container flex justify-center items-center">
+<div class="w-full mx-auto max-w-screen-md container flex justify-center items-center mb-8">
   <a class="text-gray-400 underline" href="/">Home</a>
 </div>
