@@ -38,6 +38,6 @@
 {/if}
 
 <div role="cell" tabindex="0" class="hover:cursor-pointer" on:dblclick={copyToClipboard}>
-  {verseNumber}
+  <sup>{verseNumber}</sup>
   {verseText}<br />
 </div>
