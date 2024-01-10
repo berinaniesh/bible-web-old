@@ -52,6 +52,7 @@
     <li>Dec 30, 2023 - Add changelog to about page</li>
     <li>Jan 10, 2024 - Move fetch logic to server side</li>
     <li>Jan 10, 2024 - Add "continue reading" functionality</li>
+    <li>Jan 10, 2024 - Add breadcrumbs for navigation</li>
   </ul>
 </div>
 <div class="w-full mx-auto max-w-screen-md container flex justify-center items-center">

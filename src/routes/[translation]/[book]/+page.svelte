@@ -24,6 +24,16 @@
   <title>{current_translation_book} • {data.params.translation} • Bible</title>
 </svelte:head>
 
+<div class="max-w-screen-md mt-8 mx-auto px-6">
+  <ol class="w-fit breadcrumb">
+    <li class="crumb"><a class="anchor" href="/">Home</a></li>
+	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb"><a class="anchor" href={"/" + data.params.translation}>{data.params.translation}</a></li>
+	  <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="font-bold">{data.params.book}</li>
+  </ol>
+</div>
+
 <div class="text-center max-w-screen-md mx-auto px-6 py-6">
   <p class="text-xl font-bold">{current_translation_book}</p>
   <div class="w-full flex py-6">
