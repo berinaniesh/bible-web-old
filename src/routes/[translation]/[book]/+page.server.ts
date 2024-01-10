@@ -1,7 +1,7 @@
 import * as api from '$lib/api';
-import type { PageLoad } from './$types';
+import type { PageServerLoad } from './$types';
 
-export const load: PageLoad = async ({ fetch, params }) => {
+export const load: PageServerLoad = async ({ fetch, params }) => {
   const res1 = await fetch(`${api.base}/chaptercount/${params.book}`);
   let currentPage = { book: `${params.book}`, chapter: 0 };
   let res2 = await fetch(`${api.base}/nav`, {

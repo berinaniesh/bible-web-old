@@ -1,5 +1,5 @@
 import * as api from '$lib/api';
-import type { PageLoad } from './$types';
+import type { LayoutServerLoad } from './$types';
 
 function combineArrays(v1, v2) {
   const v3 = {};
@@ -15,7 +15,7 @@ function combineArrays(v1, v2) {
   return v3;
 }
 
-export const load: PageLoad = async ({ fetch, params }) => {
+export const load: LayoutServerLoad = async ({ fetch, params }) => {
   const res = await fetch(`${api.base}/books?translation=${params.translation}`);
   const res2 = await fetch(`${api.base}/books`);
   const books_tr = await res.json();
