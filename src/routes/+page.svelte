@@ -13,14 +13,14 @@
   </ol>
 </div>
 
-<div class="container h-full w-7/12 mx-auto flex justify-center items-center py-12">
+<div class="container w-7/12 mx-auto flex justify-center items-center py-8">
   <div class="space-y-4">
-    <h1 class="h1 flex w-auto">The Bible</h1>
+    <h2 class="h2 flex w-auto">The Bible</h2>
     <div>
       <div class="grid grid-cols-2">
         {#each data.translations as translation}
           <a
-            class="block card card-hover md:w-48 md:h-48 m-2 p-4 w-11/12 bg-primary-200 hover:bg-primary-500"
+            class="block card card-hover m-2 p-2 lg:w-40 bg-primary-200 hover:bg-primary-500"
             href="/{translation.name}"
           >
             <header class="font-bold card-header">{translation.name}</header>
@@ -37,7 +37,7 @@
 </div>
 
 {#if data.lastPage}
-  <div class="w-full mx-auto container flex justify-center items-center my-4">
+  <div class="w-full mx-auto container flex justify-center items-center my-2">
     <a class="text-gray-400 underline" href={data.lastPage}>Continue Reading</a>
   </div>
 {/if}
