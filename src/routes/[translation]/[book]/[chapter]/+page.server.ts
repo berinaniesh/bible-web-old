@@ -1,11 +1,10 @@
 import * as api from '$lib/api';
 import type { PageServerLoad } from './$types';
 
-
 export const load: PageServerLoad = async ({ fetch, params, cookies }) => {
-  cookies.set('currentTranslation', params.translation, { path: '/', maxAge: 60*60*24*30 });
-  cookies.set('currentBook', params.book, { path: '/', maxAge: 60*60*24*30 });
-  cookies.set('currentChapter', params.chapter, { path: '/', maxAge: 60*60*24*30 });
+  cookies.set('currentTranslation', params.translation, { path: '/', maxAge: 60 * 60 * 24 * 30 });
+  cookies.set('currentBook', params.book, { path: '/', maxAge: 60 * 60 * 24 * 30 });
+  cookies.set('currentChapter', params.chapter, { path: '/', maxAge: 60 * 60 * 24 * 30 });
   const res = await fetch(
     `${api.base}/verses?tr=${params.translation}&b=${params.book}&ch=${params.chapter}`,
   );

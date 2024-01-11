@@ -9,30 +9,43 @@
 
   <ul class="list-disc pl-8">
     <li>
-      This site is built by <a class="underline" href="https://berinaniesh.xyz">Berin Aniesh</a>
+      This site is built by <a target="blank" class="underline" href="https://berinaniesh.xyz"
+        >Berin Aniesh</a
+      >
       in the hopes that it will be useful to someone.
     </li>
-    <li>The site is also available at <a class="underline" target="blank" href="https://thebible.pp.ua">https://thebible.pp.ua</a></li>
+    <li>
+      The site is also available at <a
+        class="underline"
+        target="blank"
+        href="https://thebible.pp.ua">https://thebible.pp.ua</a
+      >
+    </li>
     <li>
       If you have any comments feel free to <a
+        target="blank"
         class="underline"
         href="https://berinaniesh.xyz/contact">reach out</a
       >.
     </li>
     <li>
-      This site is <a class="underline" href="https://github.com/berinaniesh/bible-web"
-        >open source</a
+      This site is <a
+        target="blank"
+        class="underline"
+        href="https://github.com/berinaniesh/bible-web">open source</a
       > and is released to the public domain. Feel free to fork and self host.
     </li>
     <li>
       If you find typos or have ideas for improvement, raise issues at the project's <a
+        target="blank"
         class="underline"
         href="https://github.com/berinaniesh/bible-web/issues">github</a
       >.
     </li>
     <li>
-      To participate in the development, join the <a href="https://t.me/bibleappdesign"
-        ><u>telegram group</u></a
+      To participate in the development, join the <a
+        target="blank"
+        href="https://t.me/bibleappdesign"><u>telegram group</u></a
       >.
     </li>
     <li>I make no guarantees of availability, quality or correctness of the API or the web app.</li>
@@ -45,9 +58,24 @@
   <h1 class="font-bold text-xl py-4">Alternative Frontend</h1>
 
   <ul class="list-disc pl-8">
-    <li>An alternative frontend is being developed with note taking capabilities, bookmarks, dark mode, easier navigation, cleaner and consistent UI and much more.</li>
-    <li>It's not completely functional yet, but the the dev version can be found <a class="underline" target="blank" href="https://bible-web-sveltekit.vercel.app">here</a>.</li>
-    <li>The source code of the same can be found <a class="underline" target="blank" href="https://gitlab.com/berinaniesh/bible-web-sveltekit">here</a></li>
+    <li>
+      An alternative frontend is being developed with note taking capabilities, bookmarks, dark
+      mode, easier navigation, cleaner and consistent UI and much more.
+    </li>
+    <li>
+      It's not completely functional yet, but the the dev version can be found <a
+        class="underline"
+        target="blank"
+        href="https://bible-web-sveltekit.vercel.app">here</a
+      >.
+    </li>
+    <li>
+      The source code of the same can be found <a
+        class="underline"
+        target="blank"
+        href="https://gitlab.com/berinaniesh/bible-web-sveltekit">here</a
+      >
+    </li>
   </ul>
 </div>
 
@@ -57,7 +85,13 @@
   <h1 class="font-bold text-xl py-4">Updates / Changelog</h1>
 
   <ul class="list-disc pl-8">
-    <li>Jan 11, 2024 - Add alternate domain (<a class="underline" target="blank" href="https://thebible.pp.ua">https://thebible.pp.ua</a>)</li>
+    <li>
+      Jan 11, 2024 - Add alternate domain (<a
+        class="underline"
+        target="blank"
+        href="https://thebible.pp.ua">https://thebible.pp.ua</a
+      >)
+    </li>
     <li>Jan 10, 2024 - Add breadcrumbs for navigation</li>
     <li>Jan 10, 2024 - Add "continue reading" functionality</li>
     <li>Jan 10, 2024 - Move fetch logic to server side</li>
