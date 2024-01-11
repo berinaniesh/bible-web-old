@@ -11,8 +11,8 @@ Check [here](https://kit.svelte.dev/docs/adapters) for hosting instructions.
 
 ## Alternative frontend
 
-An alternative frontend is being developed, with note taking capabilities, bookmarks, dark mode, easier navigation, cleaner and consistent UI, etc. 
+An alternative frontend is being developed with note taking capabilities, bookmarks, dark mode, easier navigation, cleaner and consistent UI and much more. 
 
-The dev version can be found [here](https://bible-web-sveltekit.vercel.app) (Not completely functional yet). 
+The dev version can be found [here](https://bible-web-sveltekit.vercel.app) (Not completely functional yet). The source code can be found [here](https://gitlab.com/berinaniesh/bible-web-sveltekit). 
 
 No ETA. 
