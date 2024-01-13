@@ -2,6 +2,14 @@
   <title>About • Bible</title>
 </svelte:head>
 
+<div class="max-w-screen-md mt-8 mx-auto px-6">
+  <ol class="w-fit breadcrumb-nonresponsive">
+    <li class="crumb"><a class="anchor" href="/">Home</a></li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+    <li class="crumb">About</li>
+  </ol>
+</div>
+
 <div
   class="container w-full h-full leading-9 max-w-screen-md mx-auto justify-center items-center py-4 px-8"
 >
