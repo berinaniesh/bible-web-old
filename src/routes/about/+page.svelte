@@ -22,6 +22,7 @@
       >
       in the hopes that it will be useful to someone.
     </li>
+    <li>The backend of this application can be directly accessed <a class="underline" target="blank" href="https://api.bible.berinaniesh.xyz/docs">here</a> and the source code of the same can be found <a class="underline" target="blank" href="https://github.com/berinaniesh/bible-api">here</a></li>
     <li>
       The site is also available at <a
         class="underline"
