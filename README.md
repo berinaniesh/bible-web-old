@@ -17,3 +17,11 @@ An alternative frontend is being developed with note taking capabilities, bookma
 The dev version can be found [here](https://bible-web-sveltekit.vercel.app) (Not completely functional yet). The source code can be found [here](https://gitlab.com/berinaniesh/bible-web-sveltekit).
 
 No ETA.
+
+## Placards
+
+Each verse in it's own slide is made for the tamil version of 
+the bible (could be useful for audio bibles and quoting 
+verses) and the source code for creating that is present 
+[here](https://gitlab.com/berinaniesh/bible-placards-tovbsi). 
+The result pdfs are also present in this site as static files. 

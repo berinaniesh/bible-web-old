@@ -73,3 +73,9 @@
     {/if}
   </div>
 </div>
+
+{#if data.params.translation === "TOVBSI"}
+<div class="mx-auto w-min text-slate-400 underline">
+  <a href={"/placards/" + data.params.translation + "/" + data.params.book + ".pdf"} target="blank">Placards</a>
+</div>
+{/if}
