@@ -20,8 +20,8 @@ No ETA.
 
 ## Placards
 
-Each verse in it's own slide is made for the tamil version of 
+Each verse in it's own slide is available for the tamil version of 
 the bible (could be useful for audio bibles and quoting 
-verses) and the source code for creating that is present 
-[here](https://gitlab.com/berinaniesh/bible-placards-tovbsi). 
+verses) and the source code used for creating the same is present 
+[here](https://gitlab.com/berinaniesh/bible-verse-placards). 
 The result pdfs are also present in this site as static files. 

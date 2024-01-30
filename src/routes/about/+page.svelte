@@ -94,27 +94,28 @@
   <h1 class="font-bold text-xl py-4">Updates / Changelog</h1>
 
   <ul class="list-disc pl-8">
+    <li>Jan 25, 2024 - Add verses placard for tamil bible. Generation scripts can be found <a class="underline" target="blank" href="https://gitlab.com/berinaniesh/bible-verse-placards">here</a>.</li>
     <li>
       Jan 11, 2024 - Add alternate domain (<a
         class="underline"
         target="blank"
         href="https://thebible.pp.ua">https://thebible.pp.ua</a
-      >)
+      >).
     </li>
-    <li>Jan 10, 2024 - Add breadcrumbs for navigation</li>
-    <li>Jan 10, 2024 - Add "continue reading" functionality</li>
-    <li>Jan 10, 2024 - Move fetch logic to server side</li>
-    <li>Dec 30, 2023 - Add changelog to about page</li>
-    <li>Dec 21, 2023 - Create Telegram group</li>
-    <li>Nov 20, 2023 - Add google analytics</li>
-    <li>Nov 16, 2023 - Add sitemap / robots.txt</li>
-    <li>Nov 5, 2023 - Add next / previous buttons to the UI</li>
-    <li>Nov 2, 2023 - Add next / previous endpoints to API</li>
-    <li>Sep 20, 2023 - Add swagger docs to API</li>
-    <li>Sep 18, 2023 - Web UI functional</li>
-    <li>Sep 15, 2023 - API functional</li>
-    <li>Sep 13, 2023 - Feed database with bible translations</li>
-    <li>Sep 9, 2023 - Started working on Bible API</li>
+    <li>Jan 10, 2024 - Add breadcrumbs for navigation.</li>
+    <li>Jan 10, 2024 - Add "continue reading" functionality.</li>
+    <li>Jan 10, 2024 - Move fetch logic to server side.</li>
+    <li>Dec 30, 2023 - Add changelog to about page.</li>
+    <li>Dec 21, 2023 - Create Telegram group.</li>
+    <li>Nov 20, 2023 - Add google analytics.</li>
+    <li>Nov 16, 2023 - Add sitemap / robots.txt.</li>
+    <li>Nov 5, 2023 - Add next / previous buttons to the UI.</li>
+    <li>Nov 2, 2023 - Add next / previous endpoints to API.</li>
+    <li>Sep 20, 2023 - Add swagger docs to API.</li>
+    <li>Sep 18, 2023 - Web UI functional.</li>
+    <li>Sep 15, 2023 - API functional.</li>
+    <li>Sep 13, 2023 - Feed database with bible translations.</li>
+    <li>Sep 9, 2023 - Started working on Bible API.</li>
   </ul>
 </div>
 <div class="w-full mx-auto max-w-screen-md container flex justify-center items-center my-8">
