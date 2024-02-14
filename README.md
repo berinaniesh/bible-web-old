@@ -1,5 +1,7 @@
 # Bible Web
 
+**Bible Web is rewritten and can be found [here](https://github.com/berinaniesh/bible-web). This repository will no longer be updated.**
+
 This is the frontend for [bible-api](https://github.com/berinaniesh/bible-api) and is available [here](https://bible.berinaniesh.xyz) and [here](https://thebible.pp.ua).
 
 No promises are made for the reliability, availability, quality or correctness of the API or the web frontend.
